@@ -20,8 +20,6 @@ data/raw/creditcard.csv
 - notebooks/5_mainmodel_results.ipynb: Gradient Boosting, Autoencoder, Hybrid Model, final results
 - reports/: Final report PDF
 - figures/: Report figures
-- src/: Python scripts for preprocessing/training/evaluation
-- demo/: Optional Streamlit demo
 
 ## Models
 
