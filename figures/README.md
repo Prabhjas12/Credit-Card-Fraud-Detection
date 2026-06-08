@@ -2,7 +2,7 @@
 
 This folder contains figures used in the final report.
 
-Figures may include:
+Figures included:
 
 - Class distribution plot
 - Log amount distribution plot
