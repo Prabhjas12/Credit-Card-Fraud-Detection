@@ -39,3 +39,81 @@ The raw dataset is not included in this GitHub repository because the file is la
 
 ```text
 data/raw/creditcard.csv
+```
+
+The file must be named exactly:
+
+```text
+creditcard.csv
+```
+
+---
+
+## How to Run This Project
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/prabhjas14/credit-card-fraud-detection.git
+cd credit-card-fraud-detection
+```
+
+### 2. Install Requirements
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Download the Dataset
+
+Download the dataset from Kaggle:
+
+https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+
+After downloading and unzipping it, place the file here:
+
+```text
+data/raw/creditcard.csv
+```
+
+The file must be named exactly:
+
+```text
+creditcard.csv
+```
+
+### 4. Run the Notebooks
+
+Open Jupyter Notebook:
+
+```bash
+jupyter notebook
+```
+
+Then run the notebooks in this order:
+
+```text
+notebooks/1_data_check.ipynb
+notebooks/2_eda.ipynb
+notebooks/3_preprocessing_and_labeling.ipynb
+notebooks/4_baseline_models.ipynb
+notebooks/5_mainmodel_results.ipynb
+```
+
+The third notebook creates the processed data files inside:
+
+```text
+data/processed/
+```
+
+The fourth and fifth notebooks use those processed files to train and evaluate the models.
+
+---
+
+## Final Report
+
+The final project report is located in:
+
+```text
+reports/DSC148_Final_Report_Prabhjas_Singh.pdf
+```
